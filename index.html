@@ -93,7 +93,7 @@
             <div class="navbar-end gap-x-4">
                 <a href=""><i class=" hidden md:flex fa-solid fa-magnifying-glass bg-white h-7 w-7 flex items-center justify-center rounded-full shadow-lg text-gray-500"></i></a>
                 <a href=""><i class=" hidden md:flex fa-solid fa-cart-shopping  bg-white h-7 w-7 flex items-center justify-center rounded-full shadow-lg text-gray-500 "></i></a>
-              <a class="hidden md:flex btn bg-primaryy-color-bg rounded-3xl font-bold px-6 ">Book Consult <i class="text-white bg-black rounded-full w-6 h-6  fa-solid fa-arrow-up-long transform rotate-45 color-blue400 rounded-44  flex items-center justify-center"></i></a>
+               <a class="hidden md:flex btn bg-primaryy-color-bg rounded-3xl font-bold px-6 ">Book Consult <i class="text-white bg-black rounded-full w-6 h-6  fa-solid fa-arrow-up-long transform rotate-45 color-blue400 rounded-44  flex items-center justify-center"></i></a>
               <i class="shadow-lg h-4 w-4 bg-white lg:hidden fa-solid fa-bars"></i>
             </div>
           </div>     
@@ -228,34 +228,55 @@
          <!-- our leatest portfolio -->
           <section class="w-11/12 px-10">
             <!-- text content -->
-             <div class="justify-center items-center ">
-              <div class="   w-10/12">
+             <div class="flex justify-center items-center ">
+              <div class=" flex flex-col justify-center items-center  w-10/12">
                 <button class="btn bg-faltubutton-color rounded-3xl shadow-lg btn-xs"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
-                <h1 class="text-4xl font-bold">Our Latest Portfolio</h1>
+                <h1 class="text-4xl font-bold text-center">Our Latest Portfolio</h1>
                 <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
                </div>
              </div>
              <!-- grid cards -->
-              <div class="w-10/12">
-                <div class="grid grid-cols-3 ml-10  ">
-                  <div class="col-span-3">
-                    <div class=" px-5 py-5 bg-base-100 col-span-2 shadow-xl rounded-xl flex flex-row ">
-                      <div>
-                        <img class="ml-5 border-2 border-dashed rounded-lg border-gray-400 w-full" src="images/img1.png" alt="">
+              
+                <div class="grid grid-cols-1 lg:grid-cols-4 lg:grid-rows-2 gap-4 items-center mt-5 justify-center lg:ml-10 ">
+                  <div class="md:col-span-3 row-span-1">
+                    <div class="    shadow-xl rounded-xl flex items-center gap-5 ">
+                      <div class="p-4">
+                        <img class="border-2  rounded-lg border-dashed border-gray-400 " src="images/img1.png" alt="">
                       </div>
                       <div class="ml-8">
-                        <h2 class="text-2xl font-bold mb-2">Commercial</h2>
-                        <p class="mb-2 text-[13px]">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
-                        <button class="btn bg-white px-6">View Details <i class="fa-solid fa-arrow-up-long transform rotate-45 color-blue400 bg-primaryy-color-bg rounded-full w-7 h-7 flex items-center justify-center"></i></button>
+                        <h2 class="text-2xl font-bold ">Commercial</h2>
+                        <p class=" text-[13px]">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+                        <button class="btn bg-white ">View Details <i class="fa-solid fa-arrow-up-long transform rotate-45 color-blue400 bg-primaryy-color-bg rounded-full w-7 h-7 flex items-center justify-center"></i></button>
                       </div>
                     </div>
                   </div>
-                  <div class="inline-block">
-                    <img class="bg-white shadow-xl rounded-xl px-3 py-3" src="images/img2.png" alt="">
+                  <div class="col-span-1 row-span-1 shadow-2xl p-9 rounded-2xl">
+                    <img class=" border-dashed rounded-lg border-2 border-gray-500 " src="images/img3.png" alt="">
                   </div>
+                  
+                  <div class="    shadow-xl rounded-xl flex items-center gap-5 ">
+                    <div class="p-4">
+                      <img class=" border-dashed rounded-lg border-2 border-gray-500 " src="images/img4.png" alt="">
+                    </div>
+                    
+                  </div>
+                  <div class="md:col-span-2 row-span-1">
+                    <div class="    shadow-xl rounded-xl flex items-center gap-5 ">
+                      <div class="p-4">
+                        <img class="border-dashed  rounded-lg border-2 border-gray-500 " src="images/img5.png" alt="">
+                      </div>
+                      <div class="ml-8">
+                        <h2 class="text-2xl font-bold ">Commercial</h2>
+                        <p class=" text-[13px]">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+                        <button class="btn bg-white ">View Details <i class="fa-solid fa-arrow-up-long transform rotate-45 color-blue400 bg-primaryy-color-bg rounded-full w-7 h-7 flex items-center justify-center"></i></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-span-1 row-span-1   p-8 shadow-2xl rounded-2xl">
+                    <img class=" border-dashed bg-white shadow-xl rounded-xl border-2 border-gray-500 " src="images/img2.png" alt="">
+                  </div>
+                  
                 </div>
-                <div></div>
-              </div>
               
           </section>
 
@@ -345,9 +366,9 @@
                    </div>
                    <!-- free text and button -->
                     <div class="flex flex-col ">
-                      <textarea name="" placeholder="Write your masssage" class="w-full h-full lg:pt-3 lg:px-3 lg:w-[970px] lg:h-[240px] rounded-3xl   mt-5 mb-5" id=""></textarea>
+                      <textarea name="" placeholder="Write your masssage" class="w-[327px] h-[240px] lg:pt-3 lg:px-3 lg:w-[970px] lg:h-[240px] rounded-3xl   mt-5 mb-5" id=""></textarea>
                       
-                      <a class="rounded-3xl bg-primaryy-color-bg btn btn-ghost text-xl font-bold">Send Mail <i class="fa-solid fa-arrow-up-long bg-black text-white transform rotate-45 color-blue400  rounded-full w-7 h-7 flex items-center justify-center"></i></a>
+                      <a class="rounded-3xl bg-primaryy-color-bg btn btn-ghost text-xl font-bold mb-10">Send Mail <i class="fa-solid fa-arrow-up-long bg-black text-white transform rotate-45 color-blue400  rounded-full w-7 h-7 flex items-center justify-center"></i></a>
                     </div>
                 </div>
 
@@ -356,6 +377,31 @@
             </div>
            </section>
       </main>
+
+      <!-- footer -->
+       <footer class="bg-black px-16">
+        <div class="flex flex-col items-center justify-center">
+          <h1><a class=" mt-10 text-center text-white btn btn-ghost text-2xl font-bold"><i class="text-black fa-solid fa-arrow-up-long transform rotate-45 color-blue400 bg-primaryy-color-bg rounded-full w-7 h-7 flex items-center justify-center"></i> Rinterio</a></h1>
+          <p class="text-[15px] text-gray-500 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
+        </div>
+
+        <div class="mt-10 flex flex-col items-center justify-center lg:flex-row lg:gap-[130px] text-white">
+          
+                
+          <p>Home</p>
+          <p>Services</p>
+          <p>Portfolio</p>
+          <p>Blogs</p>
+          <p>Contract Us</p>
+            
+          
+        </div>
+
+
+        <div class="flex items-center justify-center mt-10 ">
+          <a class=" lg:w-[211px] md:flex btn bg-primaryy-color-bg rounded-3xl font-bold px-6 mb-10 ">Book Consult <i class="text-white bg-black rounded-full w-6 h-6  fa-solid fa-arrow-up-long transform rotate-45 color-blue400 rounded-44  flex items-center justify-center"></i></a>
+        </div>
+       </footer>
       
 </body>
 </html>
