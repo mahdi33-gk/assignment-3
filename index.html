@@ -21,6 +21,7 @@
         background: linear-gradient(0deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) 100%);
          
       }
+ 
 
      </style>
 
@@ -33,6 +34,11 @@
               'primaryy-color-bg': 'rgb(171, 239, 95)',
               'seconderyy-color-bg': 'rgba(171, 239, 95, 0.5)',
               'thirdd-color-bg': 'rgb(30, 30, 30, 0.1)',
+              'first-color': 'rgb(231, 193, 211)',
+              'second-color': 'rgb(239, 218, 110)',
+              'third-color': 'rgb(164, 218, 195)',
+              'fourth-color': 'rgb(119, 170, 234)',
+              'faltubutton-color': 'rgba(171, 239, 95, 0.2)',
             }
           }
         }
@@ -182,8 +188,72 @@
               <p>Staff Members</p>
             </div>
           </div>
+          <!-- our work process -->
+           <div class="mt-11 mx-auto w-10/12 ">
+            
+            <div class="flex flex-col items-center justify-center mb-5">
+              <!-- text section -->
+              <button class="btn rounded-3xl shadow-lg btn-xs"><i class="fa-solid fa-arrow-right"></i> How we works</button>
+               <h1 class="text-[40px] font-bold text-color">Our Works Process</h1>
+               <p class="text-[16px]">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
+            <!-- card section -->
+            <div class="flex flex-col items-center justify-center lg:flex-row gap-5">
+              <div class="bg-first-color rounded-xl shadow-xl px-5 py-5">
+                <i class="text-2xl fa-regular fa-lightbulb"></i>
+                <h1 class="text-black font-bold text-2xl">Concept</h1>
+                <p class="text-[12px]">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <div class="bg-second-color rounded-xl  px-5 py-5 shadow-xl">
+                <i class=" text-2xl fa-solid fa-brain"></i>
+                <h1 class="text-black font-bold text-2xl">Design Process</h1>
+                <p class="text-[12px]">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <div class="bg-third-color rounded-xl  px-5 py-5 shadow-xl">
+                <i class="text-2xl fa-regular fa-eye"></i>
+                <h1 class="text-black font-bold text-2xl">Supervision</h1>
+                <p class="text-[12px]">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <div class="bg-fourth-color  px-5 py-5 rounded-xl shadow-xl">
+                <i class=" fa-solid fa-money-check-dollar"></i>
+                <h1 class="text-black font-bold text-2xl">Budget Planning</h1>
+                <p class="text-[12px]">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+            </div>
+           </div>
+
+
          </section>
+
+         <!-- our leatest portfolio -->
+          <section class="w-10/12">
+            <!-- text content -->
+             <div>
+              <button class="btn bg-faltubutton-color rounded-3xl shadow-lg btn-xs"><i class="fa-solid fa-arrow-right"></i> Explore our Latest works</button>
+              <h1 class="text-4xl font-bold">Our Latest Portfolio</h1>
+              <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+             </div>
+             <!-- grid cards -->
+              <div class="w-full lg:w-1/3 talk">
+                <div class="col-span-2 flex bg-white rounded-lg shadow-xl w-[772px]">
+                  <div class="px-3">
+                    <img class="border-2 border-dashed rounded-lg border-gray-400 " src="images/img1.png" alt="">
+                  </div>
+                  <div class="ml-6 px-3 py-3">
+                    <h2 class="text-2xl font-bold mb-3">Commercial</h2>
+                    <p class="mb-3">The barn house captivates with its blend of rustic charm <br> and modern. The barn house captivates with its blend of <br> rustic charm and modern .</p>
+                    <button class="btn bg-white px-6">View Details <i class="fa-solid fa-arrow-up-long transform rotate-45 color-blue400 bg-primaryy-color-bg rounded-full w-7 h-7 flex items-center justify-center"></i></button>
+                    
+                  </div>
+                </div>
+                <div class="w-full lg:w-2/3">
+                  <img class="bg-white shadow-xl rounded-xl px-3 py-3" src="images/img2.png" alt="">
+                </div>
+              </div>
+              
+          </section>
       </main>
+      
 </body>
 </html>
 
