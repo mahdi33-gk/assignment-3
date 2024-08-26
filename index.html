@@ -315,31 +315,42 @@
           <!-- discuss next project section -->
            <section>
             <div class="bg-[url('images/bg.jpg')]">
-              <div class="w-[970px]">
-                <div class="">
-                  <button class="btn bg-faltubutton-color rounded-3xl shadow-lg btn-xs"><i class="fa-solid fa-arrow-right"></i> Lets Connect</button>
-                  <h1 class="text-[40px] font-bold">Let’s Discuss Next Project</h1>
-                  <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+              <div class="">
+                <div class="flex flex-col justify-center items-center">
+                  <button class="mt-4 btn bg-faltubutton-color rounded-3xl shadow-lg btn-xs"><i class="fa-solid fa-arrow-right"></i> Lets Connect</button>
+                  <h1 class="text-[40px] font-bold text-center">Let’s Discuss Next Project</h1>
+                  <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br> featuring weathered wood, sleek metal accents.</p>
                 </div>
-                <div>
-                  <!-- First name and last name -->
-                  <div>
-                    <label for="name"></label>
-                    <input type="text " placeholder="First Name*">
+                
+
+                <div class=" mt-5 flex items-center justify-center flex-col">
+                  <div class="flex flex-col lg:flex-row gap-5">
+                    <!-- First name and last name -->
+                    <div>
+                      <label for="name"></label>
+                      <input type="text " class="px-20 py-2 w-[473px] rounded-3xl" placeholder="First Name*">
+                    </div>
+                    <div>
+                      <input type="text" class="px-20 py-2 w-[473px] rounded-3xl" placeholder="Second Name*">
+                    </div>
                   </div>
-                  <div>
-                    <input type="text" placeholder="Second Name*">
-                  </div>
+                  <!-- phone and mail -->
+                   <div class="flex gap-5 mt-5 flex-col lg:flex-row">
+                    <div>
+                      <input class="px-20 py-3 w-[473px] rounded-3xl" type="number" placeholder="Phone Number*">
+                    </div>
+                    <div>
+                      <input class="px-20 py-3 w-[473px] rounded-3xl" type="email" placeholder="Your email*">
+                    </div>
+                   </div>
+                   <!-- free text and button -->
+                    <div class="flex flex-col ">
+                      <textarea name="" placeholder="Write your masssage" class="w-full h-full lg:pt-3 lg:px-3 lg:w-[970px] lg:h-[240px] rounded-3xl   mt-5 mb-5" id=""></textarea>
+                      
+                      <a class="rounded-3xl bg-primaryy-color-bg btn btn-ghost text-xl font-bold">Send Mail <i class="fa-solid fa-arrow-up-long bg-black text-white transform rotate-45 color-blue400  rounded-full w-7 h-7 flex items-center justify-center"></i></a>
+                    </div>
                 </div>
-                <!-- phone and mail -->
-                 <div>
-                  <div>
-                    <input type="number" placeholder="Phone Number*">
-                  </div>
-                  <div>
-                    <input type="email" placeholder="Your email*">
-                  </div>
-                 </div>
+
 
               </div>
             </div>
